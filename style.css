@@ -1,12 +1,12 @@
 *::before ::after{
 box-sizing: border-box;
 }
-.Container .Header{
+.Container-Header{
 background-color: grey;
 display: flex;
 
 }
-.Container .Home{
+.Container-Home{
 
 } 
 .logo{
@@ -14,23 +14,33 @@ display: flex;
     height: auto;
 }
 .Container .About{
-
-
+    position: absolute;
+    padding: 2rem;
+    background-color: black;
+    top: 0%;
+    text-align: left;
 }
-.Container .Projects{
-
-
-}
-#project.box{
+.Container-Projects{
+margin: 50px;
+width: 80%;
 padding: 2rem;
-margin: 50%;
+display: flex;
+background-color: grayscale;
+font-style: oblique;
+}
+#myproject.box{
+padding: 2rem;
 box-shadow: 2px 2px 8px rgba(red, green, blue, alpha);
+text-align: right;
 }
-.Container .Contact{
+.Container-Contact{
+    position: sticky;
 
 
 }
-.Container .footer{
-
+.Container-Footer{
+text-align: center;
+display: flex;
+justify-content: center;
 
 }
