@@ -1,0 +1,36 @@
+*::before ::after{
+box-sizing: border-box;
+}
+.Container .Header{
+background-color: grey;
+display: flex;
+
+}
+.Container .Home{
+
+} 
+.logo{
+    width: 30px;
+    height: auto;
+}
+.Container .About{
+
+
+}
+.Container .Projects{
+
+
+}
+#project.box{
+padding: 2rem;
+margin: 50%;
+box-shadow: 2px 2px 8px rgba(red, green, blue, alpha);
+}
+.Container .Contact{
+
+
+}
+.Container .footer{
+
+
+}
