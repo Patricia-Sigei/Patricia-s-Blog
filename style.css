@@ -1,46 +1,77 @@
 *::before ::after{
-box-sizing: border-box;
+    padding: 0;  
+    margin: 0;
+    box-sizing: border-box;
 }
-.Container-Header{
-background-color: grey;
-display: flex;
-
-}
-.Container-Home{
-
-} 
-.logo{
-    width: 30px;
-    height: auto;
-}
-.Container .About{
-    position: absolute;
-    padding: 2rem;
+body{
+    display: flex;
+    flex-direction: column;
     background-color: black;
-    top: 0%;
-    text-align: left;
+    border-radius: 10px;
 }
-.Container-Projects{
-margin: 50px;
-width: 80%;
-padding: 2rem;
-display: flex;
-background-color: grayscale;
-font-style: oblique;
-}
-#myproject.box{
-padding: 2rem;
-box-shadow: 2px 2px 8px rgba(red, green, blue, alpha);
-text-align: right;
-}
-.Container-Contact{
-    position: sticky;
-
-
-}
-.Container-Footer{
+nav{
+position: fixed;
+top: 0;
 text-align: center;
-display: flex;
 justify-content: center;
+height: 20px;
+border-radius: 20px solid;
+padding: 2rem;
+}
+main{
+background-color: grey;
+min-width: 600px;
+height: auto;
+padding: 2rem;
+border-radius: 20px;
+}
+article{
+background-color: aqua;
+height: auto;
+min-width: 600px;
+padding: 2rem;
+border-radius: 20px;
+}
+footer{
+    bottom: 0%;
+    text-align: center;
+}
+#Home{
+    background-color: blue;
+    width: 50%;
+    height: auto;
+    padding: 2rem;
+    border-radius: 10px;
+    flex-grow: 1;
 
+}
+#About{
+background-color: yellow;
+height: auto;
+width: 50%;
+float: right;
+border-radius: 10px;
+flex-grow: 1;
+}
+#Project{
+background-color: blueviolet;
+width: 50%;
+height: auto;
+float: right;
+border-radius: 10px;
+flex-grow: 1;
+
+}
+#Contact{
+background-color: brown;
+width: 50%;
+height: auto;
+border-radius: 10px;
+flex-grow: 1;
+}
+#copyrights{
+justify-content: center;
+}
+#Arrow{
+position: sticky;
 }

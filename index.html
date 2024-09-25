@@ -5,38 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
-<div class="Container-Header">
-<h1>My Portfolio</h1>
+<h1 style="color: brown;">My Portfolio</h1>
 <nav>
     <a href="#Home" class="nav-link">Home</a>
     <a href="#About" class="nav-link">About</a>
     <a href="#Projects" class="nav-link">Projects</a>
     <a href="#Contact" class="nav-link">Contact</a>
 </nav>
-</div>
-<div class="Container-Home">
-
-</div>
-<div class="Container-About">
+<main>
+<div id="Home">
     <div class="logo">
-       <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-       alt="Women in Tech">
-    </div>
-    <h2>Welcome to my Portfolio</h2>
-    <p>Software Engineer</p>
+        <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+        alt="Women in Tech" width="400px" height="auto">
+     </div>
+    <h2>Software Engineer</h2>
 </div>
-<div class="Container-Projects">
-    <a href="#Projects"> My Projects</a>
-    <div class="box" id="myproject"> 
-    
+<div id="About">
+    <a href="#About">About Me</a>
+   <p>I am a tech enthusiast currently studying software engineering, with a focus on HTML and CSS. I am passionate about building user-friendly web designs and am eager to continue expanding my skills in front-end development.</p>
+</div>
+</main>
+<article>
+<div id="Project">
+    <a href="#Projects"> My Project</a>    
         <h4>Bazenga Art School</h4>
         <p>This is the first project I created. It is basically an website where you can view information on Bazenga Art School and sign-up for a class</p>
 </div>
 </div>
-<div class="Container-Contact">
-    <a href="#Contact">How to Reach me</a>
+<div id="Contact">
+    <a href="#Contact">You Can Reach Me Via</a>
     <p>Instagram
         <i class="fa-brands fa-instagram"></i>
     </p>
@@ -46,12 +46,20 @@
     <P>X
         <i class="fa-brands fa-x-twitter"></i>
     </P>
+    <p>Email
+        <i class="fa-solid fa-envelope"></i>
+    </p>
 </div>
-<div class="Container-Footer">
+</article>
+<footer>
+<div id="Copyrights">
     <p>&copy;2024 @ Patricia-Sigei. All Rights Reserved.</p>
+
+</div>
+<div id="Arrow">
     <a href="#Home">Back to Top</a>
 </div>
-
+</footer>
     <script src="script.js"></script>
 </body>
 </html>
