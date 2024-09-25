@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,59 +8,63 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
-<body>
-<h1 style="color: brown;">My Portfolio</h1>
-<nav>
-    <a href="#Home" class="nav-link">Home</a>
-    <a href="#About" class="nav-link">About</a>
-    <a href="#Projects" class="nav-link">Projects</a>
-    <a href="#Contact" class="nav-link">Contact</a>
-</nav>
-<main>
-<div id="Home">
-    <div class="logo">
-        <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-        alt="Women in Tech" width="400px" height="auto">
-     </div>
-    <h2>Software Engineer</h2>
-</div>
-<div id="About">
-    <a href="#About">About Me</a>
-   <p>I am a tech enthusiast currently studying software engineering, with a focus on HTML and CSS. I am passionate about building user-friendly web designs and am eager to continue expanding my skills in front-end development.</p>
-</div>
-</main>
-<article>
-<div id="Project">
-    <a href="#Projects"> My Project</a>    
-        <h4>Bazenga Art School</h4>
-        <p>This is the first project I created. It is basically an website where you can view information on Bazenga Art School and sign-up for a class</p>
-</div>
-</div>
-<div id="Contact">
-    <a href="#Contact">You Can Reach Me Via</a>
-    <p>Instagram
-        <i class="fa-brands fa-instagram"></i>
-    </p>
-    <p>LinkedIn
-        <i class="fa-brands fa-linkedin"></i>
-    </p>
-    <P>X
-        <i class="fa-brands fa-x-twitter"></i>
-    </P>
-    <p>Email
-        <i class="fa-solid fa-envelope"></i>
-    </p>
-</div>
-</article>
-<footer>
-<div id="Copyrights">
-    <p>&copy;2024 @ Patricia-Sigei. All Rights Reserved.</p>
 
-</div>
-<div id="Arrow">
-    <a href="#Home">Back to Top</a>
-</div>
-</footer>
+<body>
+
+    <nav>
+        <h1 style="text-align: center; color: rgb(126, 126, 223);">My Portfolio</h1>
+        <a href="#Home" class="nav-link">Home</a>
+        <a href="#About" class="nav-link">About</a>
+        <a href="#Projects" class="nav-link">Projects</a>
+        <a href="#Contact" class="nav-link">Contact</a>
+
+    </nav>
+    <main>
+        <div id="Home" class="card"> 
+            <h2>Software Engineer</h2>
+            <h3>About Me</h3>
+            <p>I am a tech enthusiast currently studying software engineering, with a focus on HTML and CSS. I am
+                passionate about building user-friendly web designs and am eager to continue expanding my skills in
+                front-end development.</p>
+        </div>
+    </main>
+    <article>
+        <h2 style="text-align: center;" color="black"><a href="#Projects"> My Projects</a></h2>
+    <div class="container">
+        <div id="Project-1" class="card">
+            <h4 style="color: rgb(24, 24, 13);">Bazenga Art School</h4>
+            <p>This is the first project I created. It is basically an website where you can view information on Bazenga
+                Art School and sign-up for a class</p>
+        </div>
+        <div id="Project-2" class="card">
+            <h4 style="color: rgb(24, 24, 13);">My Blog</h4>
+            <p>The blog website serves multiple purposes, from personal expression to professional development. It allows users to share experiences, provide educational content like tutorials, and foster community through reader engagement. It is also valuable for promoting brand awareness, boosting SEO, and generating income through ads or affiliate marketing. Additionally, it helps build networks by connecting individuals with shared interests or professional goals.</p>
+        </div>
+        <div id="Project-3" class="card">
+            <h4 style="color: rgb(24, 24, 13);">Registration form</h4>
+            <p>I created a registration website where users can sign up by entering details like their name, email, and password. The form includes input validation to ensure data accuracy and provides clear error messages when needed. I also implemented security features, like password encryption and email verification, to protect user information and enhance the overall experience</p>
+        </div>
+    
+    </div>
+    </article>
+        <footer>  
+            <a href="#Contact">You Can Reach Me Via</a>
+            <p>Instagram
+                <i class="fa-brands fa-instagram"></i>
+            </p>
+            <p>LinkedIn
+                <i class="fa-brands fa-linkedin"></i>
+            </p>
+            <P>Twitter
+                <i class="fa-brands fa-x-twitter"></i>
+            </P>
+            <p>Email
+                <i class="fa-solid fa-envelope"></i>
+            </p>  
+    <small id="Copyrights">&copy;2024 @ Patricia-Sigei. All Rights Reserved.</small>
+    <a id="Arrow" href="#Home"><i class="fa-solid fa-arrow-up"></i></a>
+    </footer>
     <script src="script.js"></script>
 </body>
+
 </html>

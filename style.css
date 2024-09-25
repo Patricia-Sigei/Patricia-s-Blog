@@ -4,74 +4,98 @@
     box-sizing: border-box;
 }
 body{
-    display: flex;
-    flex-direction: column;
-    background-color: black;
-    border-radius: 10px;
+    background-image: url("https://images.unsplash.com/photo-1573164713988-8665fc963095?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");;
 }
 nav{
-position: fixed;
+position: sticky;
 top: 0;
 text-align: center;
 justify-content: center;
 height: 20px;
-border-radius: 20px solid;
+border-radius: 20px;
 padding: 2rem;
+background-color: #fff;
+border: solid 1px black;
+}
+nav h1{
+  display: inline;  
+  margin: 150px;
+ justify-content: left;
+ align-content: end;
 }
 main{
-background-color: grey;
-min-width: 600px;
+/* background-image: url("https://images.unsplash.com/photo-1573164713988-8665fc963095?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
 height: auto;
 padding: 2rem;
-border-radius: 20px;
+justify-content: space-between;
+align-items: center;
+
 }
 article{
-background-color: aqua;
+/* background-color: #fff; */
 height: auto;
-min-width: 600px;
-padding: 2rem;
-border-radius: 20px;
+width: 100%
+justify-content: space-between;
+
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0px;
 }
 footer{
-    bottom: 0%;
-    text-align: center;
+position: sticky;
+top: 0;
+display: flex;
+justify-content: space-around;
+height: 20px;
+border-radius: 20px;
+padding: 2rem;
+background-color: #fff;
+border: solid 1px black;
+    /* background-color: rgb(175, 110, 235); */
 }
 #Home{
-    background-color: blue;
+    background-color: rgba(136, 136, 231, 0.692);
     width: 50%;
     height: auto;
     padding: 2rem;
     border-radius: 10px;
     flex-grow: 1;
-
+    align-items: flex-end;
 }
 #About{
-background-color: yellow;
+background-color: rgba(136, 136, 231, 0.692);
 height: auto;
 width: 50%;
-float: right;
 border-radius: 10px;
 flex-grow: 1;
 }
-#Project{
-background-color: blueviolet;
+
+#Project-1{
+background-color: rgba(136, 136, 231, 0.692);
 width: 50%;
 height: auto;
-float: right;
-border-radius: 10px;
-flex-grow: 1;
+border: 1px solid black; 
 
 }
-#Contact{
-background-color: brown;
-width: 50%;
-height: auto;
-border-radius: 10px;
-flex-grow: 1;
+
+#Project-2{
+    background-color: rgba(136, 136, 231, 0.692);
+    width: 50%;
+    height: auto;   
+    border: 1px solid black; 
 }
+#Project-3{
+background-color: rgba(136, 136, 231, 0.692);
+width: 50%;
+height: auto;  
+border: 1px solid black; 
+}
+
 #copyrights{
 justify-content: center;
 }
-#Arrow{
+/* #Arrow{
 position: sticky;
-}
+} */
